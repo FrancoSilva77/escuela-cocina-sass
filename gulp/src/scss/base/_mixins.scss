@@ -37,10 +37,10 @@
     background-color: darken($color, 10);
   }
 
-  @include tablet {
-    width: auto;
-    display: inline-block;
-  }
+  // @include tablet {
+  //   width: auto;
+  //   display: inline-block;
+  // }
 }
 
 @mixin grid($columnas, $espaciado) {
